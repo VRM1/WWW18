@@ -1,6 +1,7 @@
 '''
-the proposed aspect-specific sentiment model APSEN first
-version, where we assign topic for a whole sentence. (no pseudo documents included)
+the proposed M-ASUM sentiment model, where we assign topic for a whole sentence.
+Figure (2) a of our paper "A Sparse Topic Model for Extracting Aspect-Specific
+Summaries from Online Reviews"
 '''
 import numpy as np
 from GetWordVec_V2 import GetWordVec, getMovieDat, getDatN
